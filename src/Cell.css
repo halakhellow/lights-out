@@ -1,0 +1,17 @@
+.Cell {
+    width: 4rem;
+    height: 4rem;
+    transition: background-color 1s;
+}
+
+.Cell:hover {
+    cursor: pointer;
+}
+
+.Cell-unlit {
+    background-color: #9c9c9c;
+}
+
+.Cell-lit {
+    background-color: whitesmoke;
+}
